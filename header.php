@@ -9,10 +9,10 @@
 <body <?php body_class(); ?>>
     <header>
         <div class="container">
-            <h1 class="logo"><a href="<?php echo home_url(); ?>">Imaginary Co.</a></h1>
+            <h1 class="logo"><a href="<?php echo home_url(); ?>">Test Co.</a></h1>
             <nav>
                 <ul>
-                    <li><a href="<?php echo get_permalink(get_page_by_path('lead-capture-form')); ?>">Contact Us</a></li>
+                    <li><a href="<?php echo get_permalink(get_page_by_path('lead-form')); ?>">Contact Us</a></li>
                 </ul>
             </nav>
         </div>

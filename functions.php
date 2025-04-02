@@ -2,7 +2,7 @@
 function pabau_theme_setup() {
     // Enqueue styles and scripts
     wp_enqueue_style('pabau-style', get_stylesheet_uri());
-    wp_enqueue_script('jquery'); // WordPress includes jQuery by default
+    wp_enqueue_script('jquery');
     wp_enqueue_script('pabau-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'pabau_theme_setup');
