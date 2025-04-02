@@ -129,6 +129,9 @@ footer {
     nav ul li {
         margin: 0 10px;
     }
+    .content-wrapper {
+        padding-top: 100px;
+    }
 }
 
 .lead-form-container {
